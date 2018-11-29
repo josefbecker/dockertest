@@ -7,4 +7,4 @@ RUN cd ~
 # CMD ["/tree.sh 30 50"]
 RUN pwd > printworkdir.txt
 RUN chmod 777 tree.sh
-# CMD /tree.sh 30 50
+CMD /tree.sh 30 50
